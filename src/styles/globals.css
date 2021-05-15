@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 62.5%; /*Esto sustituye el font-size del root en 10px*/
+}
+
+body {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+button, input {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.btn {
+  font-size: 1.8rem;
+  font-weight: 400;
+  min-width: 21rem;
+  color: white;
+
+  padding: 1.5rem 2rem;
+  border-radius: 2.2rem;
+  border: none;
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: .8;
+}
+
+.btn-green {
+  background: #2BD366;
+}
+
+.btn-purple {
+  background: #612BD3;
+}
+
+.search {
+  width: 100%;
+  padding: 1.5rem 2rem;
+
+  border-radius: 2.2rem;
+  border: none;
+
+  font-size: 1.8rem;
+}

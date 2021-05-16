@@ -19,6 +19,10 @@ button, input {
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+img {
+  width: 100%;
+}
+
 .btn {
   font-size: 1.8rem;
   font-weight: 400;

@@ -1,0 +1,25 @@
+.carrousel {
+    position: relative;
+}
+
+.carrousel button {
+    position: absolute;
+
+    background: #612BD3;
+}
+
+.carrousel button:first-child {
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.carrousel button:last-child {
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+} 
+
+.carrousel img {
+    border-radius: 1rem;
+}

@@ -1,0 +1,35 @@
+.container {
+    max-width: 120rem;
+
+    margin: 0 auto;
+    padding: 3rem 1rem;
+}
+
+.headerPage h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.headerPage p {
+    font-size: 2rem;
+}
+
+.sectionPage {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+
+    margin: 4rem 0;
+}
+
+.sectionPageContact {
+
+}
+
+.sectionPageAdress span{
+    font-size: 1.4rem;
+}
+
+.mainPage p {
+    font-size: 1.8rem;
+}
